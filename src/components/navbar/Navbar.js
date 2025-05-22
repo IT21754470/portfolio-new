@@ -58,14 +58,15 @@ const Navbar = () => {
         </nav>
         {/* Resume button right */}
         <div className="flex items-center ml-8">
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 border border-blue-400 text-blue-400 rounded-lg font-semibold hover:bg-blue-400 hover:text-white transition-colors duration-200"
-          >
-            <FiDownload className="text-lg" /> Resume
-          </a>
+        <a
+  href="https://drive.google.com/file/d/14i7Z72PrYDzwGT_d0-OswL--x63kPMQJ/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-4 py-2 border border-blue-400 text-blue-400 rounded-lg font-semibold hover:bg-blue-400 hover:text-white transition-colors duration-200"
+>
+  <FiDownload className="text-lg" /> Resume
+</a>
+
         </div>
       </div>
 

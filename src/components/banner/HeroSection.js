@@ -10,7 +10,7 @@ const stats = [
 
 const HeroSection = () => {
   return (
-    <section className="w-full py-24 relative overflow-hidden flex flex-col items-center justify-center text-center mb-44">
+    <section className="w-full py-24 relative overflow-hidden flex flex-col items-center justify-center text-center mb-40">
       {/* Badge with dot */}
       <div className="flex items-center justify-center mb-12">
         <span className="w-2.3 h-2.5 bg-blue-400 rounded-full mr-1"></span>

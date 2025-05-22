@@ -9,15 +9,21 @@ export const navLinksdata = [
     title: "Features",
     link: "features",
   },
+     {
+    _id: 1003,
+    title: "Experience",
+    link: "experience",
+  },
   {
     _id: 1003,
     title: "Projects",
     link: "projects",
   },
+
   {
     _id: 1004,
     title: "Resume",
-    link: "resume",
+    link: "https://drive.google.com/file/d/14i7Z72PrYDzwGT_d0-OswL--x63kPMQJ/view?usp=sharing",
   },
 
   {

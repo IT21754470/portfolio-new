@@ -7,63 +7,60 @@ const Certificates = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className='py-6 font-titleFont flex flex-col gap-20 md:flex-row'
+      className="py-6 px-4 font-titleFont"
     >
-      <div className='flex-1'>
-        <div className='py-6 font-titleFont flex flex-col gap-4'>
-          <p className='text-sm text-[#00FFFF] tracking-[4px]'>
-            2021 - Present
-          </p>
-          <h2 className='text-4xl font-bold'>Accomplishments</h2>
-        </div>
-        <div className='mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
-          <ResumeCard
-            title='"Trainee- Full Stack Developer" programme-python for Beginners'
-            subTitle='conducted by Department of Information technology , NIBM'
-            des='The program comprises six comprehensive courses, encompassing the following subjects: Web Designing, Frontend JavaScript, jQuery, Bootstrap, Server-side Web Programming, and Professional Skill Development.'
-          />
- <ResumeCard
-            title='"NIBM-Certificate in Softeare Engineering'
-            subTitle='conducted by Department of Information technology , University of Moratuwa'
-            des='The program comprises software engineering cncepts ,agile methodolgies,java and python'
-          />
-<ResumeCard
-            title='"Trainee- Full Stack Developer" programme-Web design for Beginners'
-            subTitle='conducted by Department of Information technology , University of Moratuwa'
-            des='The program comprises six comprehensive courses, encompassing the following subjects: Web Designing, Frontend JavaScript, jQuery, Bootstrap, Server-side Web Programming, and Professional Skill Development.'
-          />
-          
-         
-
-        </div>
+      <div className="pb-4">
+        <p className="text-sm text-[#00FFFF] tracking-[4px]">2021 - Present</p>
+        <h2 className="text-3xl md:text-4xl font-bold text-white">Accomplishments</h2>
       </div>
-      <div className='flex-1'>
-        <div className='py-6 font-titleFont flex flex-col gap-4'>
-          <p className='text-sm text-[#00FFFF] tracking-[4px]'>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-          </p>
-        </div>
-        <div className='mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
-         
-          <ResumeCard
-            title='Certificate In Introduction to Programming with Scratch'
-            subTitle='offered from Harvard University'
-            des='On completion of Introduction to Programming with scratcj including nine projects
-     Awarded by the Cambridge ,Massachusets,in the 2021'
-          />
-           <ResumeCard
-            title='Python Foundations'
-            subTitle='conducted by Great Learning Academy'
-            des='This Android app development course stands as a good guide for beginners strengthening your basics in Android application development and is a good mixture of theory and practical knowledge. '
-          />
 
-<ResumeCard
-            title='Front End Development-HTML'
-            subTitle='offered by Great Learning Academy'
-            des='This course will help you understand the basics of Artificial Intelligence, Neural networks, and Computer Vision with use cases.'
+      {/* Grid with 2 columns for equal height */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">
+        {/* Left Side */}
+        <div className="border-l-4 border-black border-opacity-30 pl-4 flex flex-col gap-8">
+          <ResumeCard
+            title='"Trainee- Full Stack Developer" programme - Python for Beginners'
+            subTitle='Department of IT, NIBM'
+            des='Includes Web Designing, Frontend JavaScript, jQuery, Bootstrap, Server-side Web Programming, and Professional Skill Development.'
+          />
+          <ResumeCard
+            title='NIBM - Certificate in Software Engineering'
+            subTitle='Department of IT, University of Moratuwa'
+            des='Covered Software Engineering concepts, Agile methodologies, Java, and Python.'
+          />
+          <ResumeCard
+            title='"Trainee- Full Stack Developer" - Web Design for Beginners'
+            subTitle='Department of IT, University of Moratuwa'
+            des='Includes Web Designing, JavaScript, jQuery, Bootstrap, Server-side Programming, and Professional Skills.'
+          />
+          <ResumeCard
+            title='Foundations of Software Testing and Validation'
+            subTitle='University of Leeds - Coursera'
+            des='Covers Software Quality Assurance and validation techniques.'
+          />
+        </div>
+
+        {/* Right Side */}
+        <div className="border-l-4 border-black border-opacity-30 pl-4 flex flex-col gap-8">
+          <ResumeCard
+            title='Introduction to Programming with Scratch'
+            subTitle='Harvard University'
+            des='Completed nine projects in Scratch. Awarded by Harvard University, Cambridge, MA, 2021.'
+          />
+          <ResumeCard
+            title='Python Foundations'
+            subTitle='Great Learning Academy'
+            des='A beginner-level guide to Android app development with a mix of theory and practice.'
+          />
+          <ResumeCard
+            title='Front End Development - HTML'
+            subTitle='Great Learning Academy'
+            des='Covers basics of Artificial Intelligence, Neural Networks, and Computer Vision with use cases.'
+          />
+          <ResumeCard
+            title='Programming Foundations: Software Testing / QA'
+            subTitle='LinkedIn Learning'
+            des='Seven-course program covering Software Testing and QA fundamentals.'
           />
         </div>
       </div>

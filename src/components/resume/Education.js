@@ -20,7 +20,7 @@ const Education = () => {
         <div className='mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
           <ResumeCard
             title="Bachelor's degree"
-            subTitle='SriLanka Institute of Information Technology'
+            subTitle='SriLanka Institute of Information Technology(SLIIT) (2022 - present)'
             des="Currently reading for my Bachelors' Degree in Information Technology
              (Bsc.(Hons) Information Technology Specialization in Information Technology) at SriLanka Institute of Information Technology (SLIIT)"
           />
@@ -32,7 +32,7 @@ const Education = () => {
           <ResumeCard
             title='Ordinary Level'
             subTitle='Mahamaya girls college ,kandy (2013 - 2016)'
-            des='Passed General Certificate Ordinary Level Exam'
+            des='Passed General Certificate Ordinary Level Exam with 9As'
           />
         </div>
       </div>

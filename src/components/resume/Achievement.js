@@ -42,7 +42,7 @@ const Achievement = () => {
           <p className='text-sm text-[#00FFFF] tracking-[4px]'>
             2005 - Present
           </p>
-          <h2 className='text-4xl font-bold'>Accomplishments</h2>
+          <h2 className='text-4xl font-bold text-white'>Accomplishments</h2>
         </div>
         <div className='mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
           <ResumeCard

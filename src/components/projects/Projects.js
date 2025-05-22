@@ -75,7 +75,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-full py-1 border-b-[1px] border-b-black relative px-4 md:px-10"
+      className="w-full py-1 border-b-[1px] border-b-black relative px-4 md:px-1 mt-32"
     >
       <div className="flex justify-center items-center text-center mb-8">
         <Title title="" des="My Projects" />
