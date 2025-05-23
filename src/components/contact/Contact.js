@@ -60,9 +60,9 @@ const Contact = () => {
             className="w-full h-64 object-cover rounded-md"
           />
           <h3 className="text-2xl font-semibold text-white">Sathmini Subasinghe</h3>
-          <p className="text-blue-400 text-sm">Web Developer</p>
+          <p className="text-blue-400 text-sm">QA Engineer and Project Manager</p>
           <p className="text-gray-300 text-sm">
-            I am a passionate web developer dedicated to building dynamic and responsive web applications. I enjoy creating seamless and visually engaging user experiences.
+            I am a passionate QA engineer dedicated to building dynamic and responsive web applications. I enjoy creating seamless and visually engaging user experiences.
           </p>
           <div className="text-sm text-gray-400 space-y-1">
             <p><strong>Phone:</strong> +94 742122382</p>

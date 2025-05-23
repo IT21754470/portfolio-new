@@ -2,9 +2,9 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 
 const stats = [
-  { label: "Years Experience", value: "2+" },
+  { label: "Years Experience", value: "1+" },
   { label: "Projects Delivered", value: "10+" },
-  { label: "Happy Clients", value: "5+" },
+  { label: "Happy Clients", value: "2+" },
 ];
 
 const socialLinks = [
@@ -19,7 +19,7 @@ const LeftBanner = () => {
     <div className="flex flex-col justify-center gap-8">
       <div className="flex items-center gap-4 mt-0 mb-4">
         <span className="inline-block w-fit px-5 py-1.5 bg-blue-900/90 text-white rounded-full text-lg font-semibold shadow tracking-wide">
-          QA Engineer2 & Project Manager
+          QA Engineer & Project Manager
         </span>
       </div>
 

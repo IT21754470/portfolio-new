@@ -21,7 +21,9 @@ const Banner = () => {
       <div className="absolute right-[-10%] bottom-0 w-96 h-96 bg-purple-700 rounded-full blur-3xl opacity-20 z-0"></div>
 
       {/* Content */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 px-4 py-20 mt-20">
+      <div className="relative z-10 w-full max-w-7xl mx-auto 
+                      flex flex-col md:grid md:grid-cols-2 
+                      items-center gap-8 px-4 py-20 mt-20">
         <LeftBanner />
         <RightBanner />
       </div>
