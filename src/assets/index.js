@@ -13,6 +13,8 @@ import myphoto2 from "./images/projects/myphoto2.png";
 import playwright from "./images/projects/playwright.png";
 import selenium from "./images/projects/selenium.png";
 import mylogo from "./images/projects/mylogo.jpeg";
+import travel from "./images/projects/travel.png";
+
 export {
  ecommerce,
  foodordering,
@@ -25,5 +27,6 @@ export {
   spring,
   playwright,
   selenium,
-  mylogo
+  mylogo,
+  travel
 };

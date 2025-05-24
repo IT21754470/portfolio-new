@@ -10,6 +10,8 @@ import {
   spring,
   playwright,
   selenium,
+  travel
+
 } from "../../assets/index";
 
 const projectsData = [
@@ -35,11 +37,20 @@ const projectsData = [
     techStack: ["typescript,selenium"],
   },
   {
+    title: "TRIP Organization Website(Serendip Trails)",
+    des: " A modern, responsive website for TRP Organization, a travel and recreation service provider in Sri Lanka. Built with Next.js, TypeScript, and Tailwind CSS",
+
+    src: travel,
+    githubLink: "https://github.com/IT21754470/Serendip-Trails.git",
+    techStack: ["typescript,selenium"],
+  },
+
+  {
     title: "E-Commerce earnings",
     des: " Welcome to my mobile-responsive website built with React JS and Tailwind CSS! This project features a dynamic UI, text animation using React-Typed, a toggleable mobile side drawer menu, and social icons with React-Icons.",
     src: ecommerce,
     githubLink: "https://github.com/IT21754470/Ecommerce-Site.git",
-    techStack: ["react,tailwind"],
+    techStack: ["Next.js 14,TypeScript,Tailwind CSS,React,ESLint"],
   },
   {
     title: "Food-Ordering System",
