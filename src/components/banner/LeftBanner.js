@@ -8,8 +8,8 @@ const stats = [
 ];
 
 const socialLinks = [
-  { icon: <FaGithub />, url: "https://github.com/yourusername", title: "GitHub" },
-  { icon: <FaLinkedin />, url: "https://linkedin.com/in/yourusername", title: "LinkedIn" },
+  { icon: <FaGithub />, url: "https://github.com/IT21754470", title: "GitHub" },
+  { icon: <FaLinkedin />, url: "http://www.linkedin.com/in/sathmini-subasinghe-8649022a1", title: "LinkedIn" },
   { icon: <FaInstagram />, url: "https://instagram.com/yourusername", title: "Instagram" },
   { icon: <FaFacebook />, url: "https://facebook.com/yourusername", title: "Facebook" },
 ];
