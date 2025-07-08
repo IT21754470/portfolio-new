@@ -8,9 +8,10 @@ import {
   garbage,
   movie,
   spring,
-  playwright,
+  playwright1,
   selenium,
-  travel
+  travel,
+  selenium2
 
 } from "../../assets/index";
 
@@ -25,14 +26,14 @@ const projectsData = [
   {
     title: "bookmei-playwright-automation",
     des: " This project contains automated end-to-end tests for BookMei, a salon and spa management platform. The tests cover various functionalities including user authentication, calendar management, team management, service operations, and review systems.",
-    src: playwright,
+    src: playwright1,
     githubLink: "https://github.com/IT21754470/bookmei-playwright-automation-.git",
     techStack: ["typescript,playwright"],
   },
   {
     title: "selenium_automation-framework",
     des: " A modern, responsive website template designed specifically for physiotherapy clinics and individual therapists in Sri Lanka. Built with cutting-edge web technologies to provide a professional online presence with seamless booking capabilities.",
-    src: selenium,
+    src: selenium2,
     githubLink: "https://github.com/IT21754470/selenium_automation-framework.git",
     techStack: ["typescript,selenium"],
   },

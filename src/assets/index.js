@@ -14,6 +14,8 @@ import playwright from "./images/projects/playwright.png";
 import selenium from "./images/projects/selenium.png";
 import mylogo from "./images/projects/mylogo.jpeg";
 import travel from "./images/projects/travel.png";
+import playwright1 from "./images/projects/playwright1.png";
+import selenium2 from "./images/projects/selenium2.jpeg";
 
 export {
  ecommerce,
@@ -28,5 +30,7 @@ export {
   playwright,
   selenium,
   mylogo,
-  travel
+  travel,
+  playwright1,
+  selenium2,
 };
